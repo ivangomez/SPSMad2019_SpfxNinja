@@ -3,11 +3,11 @@
 ## Creación del App Service
 Para crear en Azure el App Service sobre el que despelgar tenemos dos vías, o bien a través del portal de Azure:
 
-![alt text](./screenshot1.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoAzureFunction/Api/Screenshot1.png)
 
 O bien, a través del propio Visual Studio:
 
-![alt text](./screenshot2.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoAzureFunction/Api/Screenshot2.png)
 Si optamos por esta opción de VS, de momento obviamos este paso y lo realizaremos a la hora de desplegar el proyecto en el paso siguiente.
 
 
@@ -57,7 +57,7 @@ Si todo el proceso ha finalizado correctamente, desde el portal de Azure podremo
 
 Así mismo, tomaremos nota de la url a través de la cual haremos las llamadas a nuestro API.
 
-![alt text](./screenshot3.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoAzureFunction/Api/Screenshot3.png)
 
 
 ## Securización del App Service con Azure Active Directory
@@ -66,7 +66,7 @@ Accedemos de nuevo al portal de Azure y desde el recién creado Function App acc
 
 Hacemos click sobre *"Authentication/Authorization"*. A continuación debemos realizar los siguientes pasos tal y como aparece en la imagen.
 
-![alt text](./screenshot4.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoAzureFunction/Api/Screenshot4.png)
 
 1. Activar *"App Service Authentication"*
 2. Seleccionar *"Log in with Azure Active Directory"* en desplegable *"Action to take..."*
@@ -75,6 +75,8 @@ Hacemos click sobre *"Authentication/Authorization"*. A continuación debemos re
 Para la configuración de Azure Active Directory recomiendo usar el modo *"Express"*, al menos las primeras veces, y cuando dominemos este tema podemos pasar al Advanced y registrar las Apps nosotros mismos.
 
 Una vez seleccionado el modo *"Express"*, se nos mostrará el directorio activo sobre el que se creará el registro y debemos indicar en el campo *"Create App"* el nombre con el que registraremos la App. Una vez pulsemos *"Ok"*, se nos creará y configurará el registro de manera correcta.
+
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoAzureFunction/Api/Screenshot5.png)
 
 Una vez finalizado, si volvemos a acceder a la configuración del provider veremos los datos que se han generado al hacer el registro, es importante sobre todo que nos quedemos con el ClientId.
 
