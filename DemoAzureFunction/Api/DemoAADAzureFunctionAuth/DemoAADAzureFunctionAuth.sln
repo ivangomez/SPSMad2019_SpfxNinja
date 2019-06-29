@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAADAzureFunctionAuth", "DemoAADAzureFunctionAuth\DemoAADAzureFunctionAuth.csproj", "{7E645DCD-D854-48E3-881F-59F82432976C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E645DCD-D854-48E3-881F-59F82432976C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E645DCD-D854-48E3-881F-59F82432976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E645DCD-D854-48E3-881F-59F82432976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E645DCD-D854-48E3-881F-59F82432976C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {291D9E66-81CD-4606-8320-D634A25995B5}
+	EndGlobalSection
+EndGlobal
