@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "client-azure-function-aad-auth-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/clientAzureFunctionAadAuth/ClientAzureFunctionAadAuthWebPart.js",
+          "manifest": "./src/webparts/clientAzureFunctionAadAuth/ClientAzureFunctionAadAuthWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ClientAzureFunctionAadAuthWebPartStrings": "lib/webparts/clientAzureFunctionAadAuth/loc/{locale}.js"
+  }
+}

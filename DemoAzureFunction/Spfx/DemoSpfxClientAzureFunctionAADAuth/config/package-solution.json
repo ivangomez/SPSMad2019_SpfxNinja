@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-spfx-client-azure-function-aad-auth-client-side-solution",
+    "id": "561d5fc5-8db1-497c-a6ca-a5e0280367ce",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "MyAppRegistration",
+        "scope": "user_impersonation"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-spfx-client-azure-function-aad-auth.sppkg"
+  }
+}
