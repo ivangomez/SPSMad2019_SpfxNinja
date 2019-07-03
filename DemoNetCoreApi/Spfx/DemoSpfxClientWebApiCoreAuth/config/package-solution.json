@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-spfx-client-web-api-core-auth-client-side-solution",
+    "id": "40208a8f-d78d-437c-89da-9d039739946e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "DemoAADWebApiCoreAuth",
+        "scope": "user_impersonation"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-spfx-client-web-api-core-auth.sppkg"
+  }
+}

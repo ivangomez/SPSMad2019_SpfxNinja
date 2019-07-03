@@ -81,3 +81,14 @@ Una vez seleccionado el modo *"Express"*, se nos mostrará el directorio activo 
 Una vez finalizado, si volvemos a acceder a la configuración del provider veremos los datos que se han generado al hacer el registro, es importante sobre todo que nos quedemos con el ClientId.
 
 
+## Configuración del CORS
+
+Para que nuestra apliación cliente Spfx pueda realizar las llamadas es necesario que configuremos el CORS en nuestra Azure Function API.
+
+Accedemos al portal de Azure y en el Function App accedemos al tab "Platform features".
+
+Hacemos click sobre "CORS". A continuación debemos realizar los siguientes pasos tal y como aparece en la imagen.
+
+Una vez se nos abra la ventana de "CORS" añadiremos sobre "Allowed Origins" el dominio del SharePoint desde donde vamos a hacer las llamadas. Con esto conseguimos ser uno de los dominios validados y que el navegador no bloqueará al realizar la llamada al API.
+
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoAzureFunction/Api/Screenshot6.png)
