@@ -7,15 +7,15 @@ Para esta API recomiendo crear el proyecto desde cero para que Visual Studio se 
 
 En primer lugar creamos la aplicación web ASP.NET Core.
 
-![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/\DemoNetCoreApi/Api/Screenshot1.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoNetCoreApi/Api/Screenshot1.png)
 
 A continuación seleccionamos tipo API, .NET Core y ASP.NET Core 2.2, tal y como se muestra en la imagen.
 
-![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/\DemoNetCoreApi/Api/Screenshot2.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoNetCoreApi/Api/Screenshot2.png)
 
 Pulsamos el botón *"Change Authentication"* y sobre la nueva ventana seleccionamos *"Work or School Accounts"*, *"Cloud-Single Organization"* y en *"Domain"* debemos rellanar el dominio del tenant sobre el que queremos registrar la aplicación, que lógicamente debe ser el mismo sobre el que consumiremos el API desde SharePoint.
 
-![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/\DemoNetCoreApi/Api/Screenshot3.png)
+![alt text](https://raw.githubusercontent.com/ivangomez/SPSMad2019_SpfxNinja/master/DemoNetCoreApi/Api/Screenshot3.png)
 
 Con todo listo pulsamos sobre el botón *"OK"* para que Visual Studio cree la aplicación web, así como realice el registro sobre Azure Active Directory.
 
